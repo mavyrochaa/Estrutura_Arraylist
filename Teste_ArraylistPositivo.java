@@ -17,7 +17,7 @@ public class Teste_ArraylistPositivo {
 		System.out.println(numeros);
 		
 		for (int lista : numeros) {
-			if(lista < 0) {
+			if(lista > 0) {
 				System.out.println(lista);
 			}
 		}
